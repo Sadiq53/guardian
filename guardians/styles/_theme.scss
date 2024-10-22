@@ -1,0 +1,14 @@
+:root{
+    --gr: linear-gradient(-90deg, #000a50ff 0%, #2364aaff 100%);
+    --main-color: #000A50;
+    --text-sec: rgba($color: #000000, $alpha: 0.6);
+    --text-prim: rgba($color: #000000, $alpha: 0.87);
+}
+.main-btn{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: var(--main-color);
+    
+}
